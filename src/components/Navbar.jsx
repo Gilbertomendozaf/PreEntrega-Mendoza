@@ -4,22 +4,12 @@ const Navbar = () => {
   return (
       <nav className='navbar'>
         <h3 className='logo'>Logo</h3>
-        <ul>
-          <Link to='/' className='home'>
-            <li>Home</li>
-          </Link>
-          <Link to='/about' className='about'>
-            <li>About</li>
-          </Link>
-          <Link to='/services' className='services'>
-            <li>Services</li>
-          </Link>
-          <Link to='/skills' className='skills'>
-            <li>Skills</li>
-          </Link>
-          <Link to='/contact' className='home'>
-            <li>contact</li>
-          </Link>
+        <ul className="nav-links">
+          <li className="nav-links">Home</li>
+          <li className="nav-links">About</li>
+          <li className="nav-links">Skills</li>
+          <li className="nav-links">Contact</li>
+          <li className="nav-links">Services</li>
         </ul>
       </nav>
   )
